@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    /* Gaya lainnya untuk header */
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem;
+    background-color: #262323;
+    color: #fff;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;  
+    margin-top: 0.2rem;
+}
+
+.logo img {
+    max-width: 38px;
+    height: auto;    
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0.2rem 0;
+}
+
+.header-text p {
+    margin: 0.1rem 0;
+    font-size: 12px; /* Ubah ukuran font sesuai preferensi Anda */
+    text-align: left;
+}
+
+.time-info {
+    text-align: center;
+    margin: 0rem 0;
+    margin-right: -49rem;
+}
+
+.time-info p {
+    margin: 0.5rem 0;
+    font-size: 10px; /* Ubah ukuran font sesuai preferensi Anda */
+    text-align: center;    
+}
+
+.time-info-jam {
+    align-items: center; /* Tengahkan secara vertikal */
+    margin: 0rem 0;
+    margin-right: 0.5rem;
+}
+
+@font-face {
+    font-family: 'digital-7';
+    src: url('digital-7.ttf') format('truetype');
+}
+  
+/* Sesuaikan gaya lainnya seperti sebelumnya */
+    
+#current-day {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#current-date {
+    font-size: 13px;
+    margin-top: -8px;
+}
+
+#current-time {
+    font-size: 30px;
+    font-family: 'digital-7', sans-serif;
+    margin: 0rem;
+}
+
+header {
+    background-color: #0e0c0b;
+    color: white;
+    padding: 0.1rem;
+    text-align: center;     
+}
+
+.main-menu {   
+    background-color: #333333;
+    color: #ffffff;
+    display: flex;
+    padding: 0.5rem 0;    
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;       
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsl(67, 96%, 53%);
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: hsl(105, 93%, 57%);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+ }
+  
+ .menu li {
+    margin-right: 20px;
+ }
+  
+ .submenu ul {
+    display: none;
+    position: absolute;
+    background-color: #353131b0;
+    box-shadow: 0 2px 4px #a70a0a1a;    
+    padding-left: 0;    
+}
+
+ .submenu li {
+    margin: 1rem;
+    display: flex;
+ }
+  
+ .submenu:hover ul {
+    display: block;
+} 
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Warna latar belakang untuk baris ganjil */
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Warna latar belakang untuk baris genap */
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+
+.main-section {
+    padding: 1rem;       
+}
+
+.content {
+    text-align: justify;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Customize styles as needed */
+
+/* footer */
+.footer-content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0.5rem;
+    background-color: hsl(0, 82%, 4%);
+    color: #fbf9f9;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.contact {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.contact p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 0.1rem;
+}
+
+.contact-item {
+    margin: 0.5rem;
+    font-size: 14px;
+}
+
+.contact-item p {
+    margin: 0;
+}
+
+.contact-item p a {
+    color: #f76d2e;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.contact-item p a:hover {
+    color: hsl(99, 89%, 45%);
+}
